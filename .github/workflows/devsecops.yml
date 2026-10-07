@@ -179,7 +179,7 @@ jobs:
 
       - name: Push image
         run: |
-          docker push jaisheel15/hey-cicd:${{ github.sha }}
+          docker push jaisheel15/complete-cicd:${{ github.sha }}
           docker push jaisheel15/complete-cicd:latest
 
 
